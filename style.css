@@ -1,0 +1,143 @@
+.navbar{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.navbar-items a{
+    font-family: sans-serif;
+}
+
+
+
+.nav-title {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button1 a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(14, 154, 14);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.button2 a{
+    text-decoration: none;
+    color: #000;
+    border: solid 1px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.button3 a{
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.image-container {
+    display: grid;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.cover-image {
+    border-radius: 30px;
+    
+}
+
+.recipe-list {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipe-list-header-title {
+    font-family: sans-serif;
+}
+.recipe {
+    font-family: sans-serif;
+}
+
+
+.valori-nutrizionali-table {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.valori-header{
+    font-family: sans-serif;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.valori-notes {
+    font-family: sans-serif;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-nutrizionali {
+    font-family: sans-serif;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.t-cell {
+    border: solid 1px;
+    border-radius: 20px;
+    font-weight: 100;
+}
+
+.t-cell-values{
+    border: solid 1px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.t-headers h3{
+    font-weight: 100;
+}
+
+.footer {
+    padding-top: 40px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info1 {
+    display: grid;
+    justify-content: center;
+    font-weight: 100;
+}
+
+.social-media-image{
+    display: grid;
+    justify-content: center;
+}
+
+.info2 {
+    display: grid;
+    justify-content: center;
+    font-weight: 100;
+}
