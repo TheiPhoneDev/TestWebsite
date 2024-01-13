@@ -57,12 +57,12 @@
 
 .cover-image {
     border-radius: 30px;
-    display: grid;
+    
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .cover-image {
-        display: grid
+        display: grid;
         border-radius: 30px;
         width: 300px;
         height: 300px;
@@ -77,10 +77,36 @@
 
 .recipe-list-header-title {
     font-family: sans-serif;
+    display: grid;
+    justify-content: center;
 }
 .recipe {
     font-family: sans-serif;
 }
+
+
+.primo-procedimento {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.primo-procedimento-header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.primo-procedimento-list {
+    display: grid;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 
 .valori-nutrizionali-table {
