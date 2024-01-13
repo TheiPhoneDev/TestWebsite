@@ -57,7 +57,7 @@
 
 .cover-image {
     border-radius: 30px;
-    
+    display: grid;
 }
 
 .recipe-list {
