@@ -60,6 +60,15 @@
     display: grid;
 }
 
+@media only screen and (max-width: 1000px) {
+    .cover-image {
+        display: grid
+        border-radius: 30px;
+        width: 300;
+        height: 300;
+    }
+}
+
 .recipe-list {
     display: grid;
     align-items: center;
