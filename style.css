@@ -60,7 +60,7 @@
     display: grid;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
     .cover-image {
         display: grid
         border-radius: 30px;
